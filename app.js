@@ -14,10 +14,9 @@ connectDb();
 
 // middlewares
 app.use(cookieParser());
-app.use(express.json(express.json({
-  limit: '100MB',
-}));
-
+app.use(express.json({
+  limit: '100MB'
+}))
 
 
 // available routes
