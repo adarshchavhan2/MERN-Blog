@@ -3,7 +3,7 @@ const Post = require('../models/Post');
 const { catchAsyncError } = require("../middlewares/catchAsyncError");
 const ErrorHandler = require('../utils/ErrorHandler');
 const cloudinary = require('cloudinary').v2;
-const ApiFeatures = require('../utils/ApiFeatures');
+const ApiFeatures = require('../utils/apiFeatures');
 
 // Configuration 
 cloudinary.config({
